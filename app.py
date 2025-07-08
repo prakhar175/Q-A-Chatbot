@@ -14,7 +14,7 @@ os.environ["LANGCHAIN_PROJECT"] = "Simple Q&A Chatbot"
 
 prompt = ChatPromptTemplate.from_messages(
     [
-        ("system", "You are a helpful assistant that answers questions based on the provided context."),
+        ("system", "You are a helpful assistant that answers questions based on the best oof your knowledge."),
         ("human", "Question: {question}"),
     ]
 )
